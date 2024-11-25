@@ -8,7 +8,10 @@ export default {
     extend: {
       colors: {
         'black-opacity-5': 'rgba(0, 0, 0, 0.5)', // Adjust the alpha value as needed
-    },
+      },
+      fontFamily: {
+        sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+      },
     },
   },
   plugins: [],
