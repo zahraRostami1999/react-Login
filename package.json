@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "@fontsource/open-sans": "^5.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "react-router-dom": "^7.0.1"
   }
 }
