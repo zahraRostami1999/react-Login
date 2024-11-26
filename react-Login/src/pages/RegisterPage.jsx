@@ -49,7 +49,7 @@ const RegisterPage = () => {
                         <input onChange={(e)=> setPwd(e.target.value)} className="rounded-xl px-2 h-15 border-none text-base required" type='password' placeholder='Password' />
                         <input onChange={(e)=> setMatchPwd(e.target.value)} className="rounded-xl px-2 h-15 border-none text-base required" type='password' placeholder='Confirm Password' />
                         <button className="bg-orange-600 rounded-xl">Sign Up</button>
-                        <p>Already have an account? <p>Login</p></p>
+                        <div>Already have an account? <p>Login</p></div>
                     </div>
                 </div>
             </div>

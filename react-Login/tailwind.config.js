@@ -13,9 +13,9 @@ export default {
         sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
       screens: {
-        'xs': '200px',
+        'xs': '150px',
         'sm': '300px',
-        'md': '720',
+        'md': '700px',
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',
