@@ -12,6 +12,14 @@ export default {
       fontFamily: {
         sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      screens: {
+        'xs': '200px',
+        'sm': '300px',
+        'md': '720',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      },
     },
   },
   plugins: [],
