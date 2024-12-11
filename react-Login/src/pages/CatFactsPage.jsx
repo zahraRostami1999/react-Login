@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react';
 import Axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const CatFactPage = () => {
     const [catFact, setCatFact] = useState("")
     const handleClickBtn = () => {
         Axios.get('https://catfact.ninja/fact?max_length=140')
             .then(response => {
                 setCatFact(response.data.fact)
+                toast("New Fact!");
             })
     }
 
@@ -22,6 +25,7 @@ const CatFactPage = () => {
                     <div>
                         <h2 className='text-xl my-3 sm:text-base sm:text-center'>{catFact}</h2>
                     </div>
+                    <ToastContainer />
                 </div>
             </div>
         </>
