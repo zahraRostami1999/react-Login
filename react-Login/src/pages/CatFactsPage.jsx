@@ -8,7 +8,7 @@ const CatFactPage = () => {
         Axios.get('https://catfact.ninja/fact?max_length=140')
             .then(response => {
                 setCatFact(response.data.fact)
-                toast("New Fact!");
+                toast('🦄 Wow so easy!');
             })
     }
 
@@ -25,8 +25,8 @@ const CatFactPage = () => {
                     <div>
                         <h2 className='text-xl my-3 sm:text-base sm:text-center'>{catFact}</h2>
                     </div>
-                    <ToastContainer />
                 </div>
+                <ToastContainer/>
             </div>
         </>
     );
